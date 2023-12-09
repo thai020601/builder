@@ -1,8 +1,8 @@
 name: Build releases
 
 on: workflow_dispatch
-  watch:
-    types: started
+ # watch:
+ #  types: started
 
 jobs:
   build:
